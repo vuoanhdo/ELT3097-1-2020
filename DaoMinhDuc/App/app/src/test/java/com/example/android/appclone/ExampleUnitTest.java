@@ -1,4 +1,4 @@
-package com.example.android.hocbanglaixemayclone;
+package com.example.android.appclone;
 
 import org.junit.Test;
 
