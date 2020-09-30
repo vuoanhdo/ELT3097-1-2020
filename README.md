@@ -6,3 +6,4 @@ Mỗi sinh viên cần tự học theo khóa học MOOC và nộp bài hàng tu�
 Hàng tuần sinh viên cập nhật tiến độ học tập bằng cách chụp ảnh [màn hình khóa học](https://classroom.udacity.com/courses/ud851) và cập nhật file theo mẫu \NguyenVanA\udacity.jpg.
 
 
+
