@@ -4,5 +4,4 @@ Thư mục này dùng để lưu ứng dụng mà nhóm đang thực hành.
 
 Link ứng dụng: https://play.google.com/store/apps/details?id=com.vietdevpro.onthigiaypheplaixe.xemay&hl=vi
 
-Thành viên nhóm: Đào Minh Đức
-                 Nguyễn Ngọc Đức
+Thành viên nhóm: Đào Minh Đức, Nguyễn Ngọc Đức
