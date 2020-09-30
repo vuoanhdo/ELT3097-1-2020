@@ -7,3 +7,4 @@ Hàng tuần sinh viên cập nhật tiến độ học tập bằng cách chụ
 
 
 https://github.com/truongtv02/ELT3097-1-2020/blob/master/truong.gif
+https://github.com/truongtv02/ELT3097-1-2020/blob/master/NguyenNgocLong_18020830.gif
