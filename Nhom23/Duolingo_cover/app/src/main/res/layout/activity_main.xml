@@ -13,7 +13,7 @@
         android:layout_height="51dp"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="110dp"
         android:layout_marginRight="110dp"
         android:layout_marginBottom="560dp"
@@ -32,18 +32,18 @@
         android:layout_height="47dp"
         android:layout_marginStart="65dp"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="513dp"
+        android:layout_marginTop="488dp"
         android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
-        android:layout_marginBottom="171dp"
+        android:layout_marginBottom="196dp"
+        android:autofillHints=""
         android:background="@drawable/edittext"
         android:hint="@string/nh_p_v_o_b_ng_ti_ng_anh"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -54,7 +54,7 @@
         android:layout_marginTop="621dp"
         android:layout_marginEnd="67dp"
         android:layout_marginRight="67dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/button"
         android:text="@string/ki_m_tra"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,12 +72,12 @@
         android:layout_marginEnd="86dp"
         android:layout_marginRight="86dp"
         android:layout_marginBottom="275dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hot_pic"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/hot_pic" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -85,15 +85,15 @@
         android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:layout_marginBottom="630dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/water_pic"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/water_pic" />
 
 </android.support.constraint.ConstraintLayout>
