@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "AppClone"
+rootProject.name = "App"
