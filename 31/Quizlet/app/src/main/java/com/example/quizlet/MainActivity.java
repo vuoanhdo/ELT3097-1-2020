@@ -1,17 +1,15 @@
 package com.example.quizlet;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.concurrent.Delayed;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,13 +59,13 @@ public class MainActivity extends AppCompatActivity {
         quit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Chức năng chưa hoàn thiện!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Chức năng chưa hoàn thiện!", Toast.LENGTH_SHORT).show();
             }
         });
         adjust.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Chức năng chưa hoàn thiện!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Chức năng chưa hoàn thiện!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -126,6 +124,8 @@ public class MainActivity extends AppCompatActivity {
         ctn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
                 visible();
                 right.setVisibility(View.INVISIBLE);
                 ctn.setVisibility(View.INVISIBLE);
