@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Duolingo_cover</string>
+    <string name="h_y_d_ch_n_ng">Hãy dịch \'\'nóng\'\'</string>
+    <string name="todo">TODO</string>
+    <string name="ki_m_tra">Kiểm tra</string>
+    <string name="nh_p_v_o_b_ng_ti_ng_anh">Nhập vào bằng Tiếng Anh</string>
+    <string name="ch_n_t_c_n_thi_u">Chọn từ còn thiếu</string>
+    <string name="we_read_a_newspaper">We read _____ a newspaper</string>
+    <string name="them">them</string>
+    <string name="they">they</string>
+    <string name="kmtraCheck">KIỂM TRA</string>
+</resources>
