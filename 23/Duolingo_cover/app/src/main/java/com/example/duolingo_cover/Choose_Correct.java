@@ -8,9 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class Choose_Correct extends AppCompatActivity {
     Button btn_check;
     Button btn_opt1;
     Button btn_opt2;
@@ -20,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.xml_choose_corect);
 
         btn_check =  findViewById(R.id.Check);
         btn_check.setEnabled(false);
@@ -52,7 +51,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn_check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity2.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(Choose_Correct.this);
                 if(choose==3){
                     builder.setMessage("Congratulation! That's a correct answer");
                 }else{
@@ -62,7 +61,7 @@ public class MainActivity2 extends AppCompatActivity {
                 builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
-                        startActivity(new Intent(MainActivity2.this, MainActivity3.class));
+                        startActivity(new Intent(Choose_Correct.this, Them_or_they.class));
                     }
                 });
                 builder.show();
