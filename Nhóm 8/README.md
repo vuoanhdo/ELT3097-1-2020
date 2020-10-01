@@ -5,3 +5,7 @@ Môn học Lập trình cho thiết bị di động
 
  2. Lê Văn Hùng
  ![LeVanHung](https://github.com/LE-VAN-HUNG/Le-Van-Hung/blob/master/LeVanHung.gif)
+ 
+ 3. Nguyễn Văn Duy
+
+![NguyenVanDuy](https://github.com/duyuet/Nguyen-Van-Duy/blob/master/NguyenVanDuy.gif)
