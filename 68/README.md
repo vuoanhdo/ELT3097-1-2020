@@ -7,5 +7,5 @@ Hàng tuần sinh viên cập nhật tiến độ học tập bằng cách chụ
 1.Họ tên : Hồ Đức Quân
 https://github.com/QuanDucHo/ELT3097-1-2020/blob/master/HoDucQuan/Quan.gif
 
-2.Phạm Tùng Lâm
+2.Họ tên : Phạm Tùng Lâm
 https://github.com/QuanDucHo/ELT3097-1-2020/blob/master/PhamTungLam/PhamTungLam.gif
