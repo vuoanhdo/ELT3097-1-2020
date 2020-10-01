@@ -6,7 +6,7 @@ Link ứng dụng: https://play.google.com/store/apps/details?id=com.vietdevpro.
 
 Thành viên nhóm: Đào Minh Đức, Nguyễn Ngọc Đức
 
-Tuong tac voi ung dung:
+Tương tác với ứng dụng:
 
 ![test_app](https://user-images.githubusercontent.com/63990239/94750929-70b5f600-03b1-11eb-870a-deed83ce6954.gif)
 
