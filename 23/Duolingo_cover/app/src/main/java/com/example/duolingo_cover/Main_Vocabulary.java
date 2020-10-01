@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Main_Vocabulary extends AppCompatActivity {
 
     Button KiemTra;
     TextView DienVao;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.xml_vocab);
         KiemTra = findViewById(R.id.button);
         DienVao = findViewById(R.id.textview);
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String str = DienVao.getText().toString();
                 if(!str.isEmpty()){
-                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(Main_Vocabulary.this);
                     if(str.equals("hot")){
                         builder.setMessage("Congratulation! That's a correct answer");
                     }else{
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int i) {
-                            startActivity(new Intent(MainActivity.this, MainActivity2.class));
+                            startActivity(new Intent(Main_Vocabulary.this, Choose_Correct.class));
                         }
                     });
                     builder.show();
