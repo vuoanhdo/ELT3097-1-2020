@@ -11,22 +11,21 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
-    TextView txtw;
-    TextView message;
+    Button KiemTra;
+    TextView DienVao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button = findViewById(R.id.button);
-        txtw = findViewById(R.id.textview);
+        KiemTra = findViewById(R.id.button);
+        DienVao = findViewById(R.id.textview);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        KiemTra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = txtw.getText().toString();
-                if(str.isEmpty()==false){
+                String str = DienVao.getText().toString();
+                if(!str.isEmpty()){
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     if(str.equals("hot")){
                         builder.setMessage("Congratulation! That's a correct answer");

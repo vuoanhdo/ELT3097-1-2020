@@ -14,7 +14,6 @@ public class MainActivity3 extends AppCompatActivity {
     Button check;
     Button option1;
     Button option2;
-    TextView message;
     int choose=0;
 
     @Override
