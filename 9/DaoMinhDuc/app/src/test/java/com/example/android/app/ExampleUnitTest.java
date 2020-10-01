@@ -1,4 +1,4 @@
-package com.example.android.appclone;
+package com.example.android.app;
 
 import org.junit.Test;
 
