@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:drawingCacheQuality="auto"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="277dp"
+        android:layout_height="13dp"
+        android:layout_x="109dp"
+        android:layout_y="29dp"
+        android:background="@drawable/custom_seek"
+        android:max="100"
+        android:progress="60"
+        android:progressTint="#1ABA20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:layout_x="9dp"
+        android:layout_y="8dp"
+        android:drawableTop="@drawable/back"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="282dp"
+        android:layout_height="43dp"
+        android:text="Chọn bản dịch đúng"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="ExtraText" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="263dp"
+        android:layout_height="30dp"
+        android:text="Tôi thích bạn."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_botton"
+        android:text="I eat you."
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_botton"
+        android:text="I like you."
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_botton"
+        android:text="I drink you."
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <Button
+
+        android:id="@+id/button5"
+        android:layout_width="363dp"
+        android:layout_height="41dp"
+        android:layout_x="23dp"
+        android:layout_y="553dp"
+        android:background="@drawable/custom_botton1"
+        android:text="kiểm tra"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.851" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
