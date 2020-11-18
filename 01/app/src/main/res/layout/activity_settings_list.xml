@@ -17,7 +17,7 @@
             android:layout=" "
             android:title="Prevent phone turn-off"
             android:key="new_power_off_setting"
-            android:summary="Prevent power off when ringing"
+            android:summary="Prevent power off whenringing"
             android:defaultValue="false" />
 
         <CheckBoxPreference
