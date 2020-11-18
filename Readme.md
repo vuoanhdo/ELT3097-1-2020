@@ -19,7 +19,7 @@ Màn hình 3: Màn hình Settings
 Người phụ trách: Vũ Oanh
 
 ![app3](https://user-images.githubusercontent.com/58048581/97398664-2d9e6280-191e-11eb-9ed4-bc39bea41ce0.gif)
- 
+ https://github.com/long0204/ELT3097-1-2020/blob/master/01/app/src/main/res/layout/activity_settings_list.xml
  
 Các màn hình khác:
 
