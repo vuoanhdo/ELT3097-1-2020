@@ -12,6 +12,7 @@ Người phụ trách: Phạm Đào Hoàng Long
 
 ![app1](https://user-images.githubusercontent.com/58048581/97398605-165f7500-191e-11eb-84ed-d27628cac077.gif)
 
+https://github.com/long0204/ELT3097-1-2020/blob/master/01/app/src/main/res/layout/activity_alarm_selected.xml
  
 Màn hình 3: Màn hình Settings
 Người phụ trách: Vũ Oanh
