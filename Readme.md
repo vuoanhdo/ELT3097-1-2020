@@ -6,6 +6,7 @@ Người phụ trách: Đoàn Đức Long
 
 ![app2](https://user-images.githubusercontent.com/58048581/97398654-2a0adb80-191e-11eb-8d3f-9e0c92c25d39.gif)
 
+https://github.com/long0204/ELT3097-1-2020/blob/master/01/app/src/main/res/layout/activity_alarm_list.xml
 
 Màn hình 2: Các tùy chọn báo thức
 Người phụ trách: Phạm Đào Hoàng Long 
